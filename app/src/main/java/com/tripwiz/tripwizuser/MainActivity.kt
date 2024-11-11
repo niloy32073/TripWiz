@@ -150,6 +150,7 @@ fun WebViewPage(url: String) {
                 }
             }
             settings.javaScriptEnabled = true
+            settings.domStorageEnabled = true
             loadUrl(url)
         }
     }, update = {
